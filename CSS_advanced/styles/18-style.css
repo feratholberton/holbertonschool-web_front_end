@@ -265,10 +265,6 @@ a:active {
 	background: var(--color-light-grey);
 }
 
-.visually-hidden {
-	display: none;
-}
-
 .card-category {
 	color: var(--color-primary);
 }
@@ -312,8 +308,8 @@ a:active {
 	margin-left: auto;
 }
 
-.footer {
-	padding: var(--footer-padding);
+.visually-hidden {
+	display: none;
 }
 
 .navbar-menu {
@@ -343,4 +339,8 @@ a:active {
 
 .nav .nav-link:hover {
 	color: var(--nav-item-link-hover);
+}
+
+.footer {
+	padding: var(--footer-padding);
 }
